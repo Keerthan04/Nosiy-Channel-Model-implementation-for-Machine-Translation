@@ -11,6 +11,8 @@ https://github.com/facebookresearch/fairseq/tree/main
 github link
 https://github.com/Keerthan04/Nosiy-Channel-Model-implementation-for-Machine-Translation
 
+fairseq error gpt link
+https://chatgpt.com/share/67e17d83-e85c-8001-8e54-663246c21b92
 
 venv creation
 py -3.10 -m venv fairseq-env

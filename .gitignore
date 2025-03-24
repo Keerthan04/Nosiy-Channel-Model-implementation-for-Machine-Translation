@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[co]
+
+# Installers / packaged code.
+*.egg
+*.egg-info
+dist
+build
+.tox
+.nox
+.env
+.venv
+fairseq-env
+fairseq/
+__pycache__/

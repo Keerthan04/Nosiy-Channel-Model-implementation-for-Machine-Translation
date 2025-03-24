@@ -1,0 +1,5 @@
+fairseq
+torch
+sacrebleu
+sentencepiece
+transformers

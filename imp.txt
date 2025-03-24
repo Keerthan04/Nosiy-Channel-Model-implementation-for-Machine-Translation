@@ -1,0 +1,31 @@
+old one link
+https://chatgpt.com/share/67ae9b73-dac8-8001-8c6e-6f384638a9ba
+
+new one link
+https://chatgpt.com/c/67dff612-3764-8009-b47a-c55ee1e8882b?model=gpt-4o
+
+models github
+https://github.com/facebookresearch/fairseq/blob/main/examples/translation/README.md
+https://github.com/facebookresearch/fairseq/tree/main
+
+github link
+https://github.com/Keerthan04/Nosiy-Channel-Model-implementation-for-Machine-Translation
+
+
+venv creation
+py -3.10 -m venv fairseq-env
+source fairseq-env/Scripts/activate
+
+fairseq issue error stackoverflow
+https://stackoverflow.com/questions/78859329/fairseq-installation-fails-missing-version-txt-error-during-build-pyhton-3-11-h
+
+python -m pip install --upgrade pip==24.0 to downgrade pip inside virtual env
+
+fiarseq installation using github
+
+git clone https://github.com/pytorch/fairseq
+cd fairseq
+pip install --editable ./
+
+python10 link
+https://www.python.org/downloads/release/python-31011/

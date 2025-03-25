@@ -3,3 +3,4 @@ torch
 sacrebleu
 sentencepiece
 transformers
+tensorboardX

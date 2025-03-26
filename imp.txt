@@ -31,3 +31,50 @@ pip install --editable ./
 
 python10 link
 https://www.python.org/downloads/release/python-31011/
+
+try running the windows version by downgrading torch in that also and see might work as error in pytorch 2.6.0 and along with that pip install torchaudio==2.5.0 as 2.6.0 mismatch so
+
+=============
+LINUX
+=============
+
+-> python 3.10 download and setup
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y software-properties-common
+
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt update
+
+sudo apt update
+sudo apt install -y python3.10 python3.10-venv python3.10-dev
+
+sudo apt install -y python3.10
+
+python3.10 --version
+
+-> env creation
+
+python3.10 -m venv fairseq-env
+
+source fairseq-env/bin/activate
+
+-> upgrade of pip to 24.0(IMP)
+python -m pip install --upgrade pip==24.0
+
+-> shd change the torch to 2.5.0 so
+pip uninstall torch
+
+pip install torch==2.5.0
+or
+changes done in the requirements.txt so just do pip install -r requirements.txt
+
+along with that pip install torchaudio==2.5.0 as 2.6.0 mismatch so
+
+-> FastBPE installation
+https://github.com/glample/fastBPE
+
+git clone https://github.com/glample/fastBPE.git
+cd fastBPE
+g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast
+python3 setup.py install

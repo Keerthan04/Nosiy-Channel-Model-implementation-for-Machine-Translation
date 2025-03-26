@@ -13,4 +13,6 @@ build
 .venv
 fairseq-env
 fairseq/
+fastBPE/
+fastBPE/**
 __pycache__/

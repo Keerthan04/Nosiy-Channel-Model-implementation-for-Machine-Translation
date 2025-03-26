@@ -1,5 +1,5 @@
 fairseq
-torch
+torch==2.5.0
 sacrebleu
 sentencepiece
 transformers

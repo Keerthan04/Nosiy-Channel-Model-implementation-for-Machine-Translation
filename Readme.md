@@ -2,6 +2,14 @@
 
 ![Translation Header](https://play-lh.googleusercontent.com/PUUq3qJQLyvkGt6WR8lAHC1wQOQG9k8jEF9ap-NXY8pQ5B62CcQGcnZwRJnWZKYyDQ)
 
+## 📷 Demo Images
+
+![Translation](./images/1.png)
+
+![Translation Results](./images/2.png)
+
+![Candidates and Scores](./images/3.png)
+
 ## Implementation Based on Research Paper
 
 ### Title:

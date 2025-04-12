@@ -44,7 +44,7 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     .highlight {
-        background-color: #EFF6FF;
+        background-color: #6B7280;
         padding: 1rem;
         border-radius: 0.5rem;
         border-left: 4px solid #2563EB;
@@ -107,12 +107,12 @@ st.markdown("""
         margin-right: 0.5rem;
     }
     .direct-badge {
-        background-color: #DBEAFE;
-        color: #2563EB;
+        background-color: #6B7280;
+        color: white;
     }
     .channel-badge {
-        background-color: #E0E7FF;
-        color: #4F46E5;
+        background-color: #6B7280;
+        color: white;
     }
     .loading-spinner {
         text-align: center;
@@ -392,7 +392,7 @@ def main():
     st.markdown("<h2 class='sub-header'>Enter English Text</h2>", unsafe_allow_html=True)
     english_text = st.text_area(
         "Type or paste English text to translate",
-        "The weather is very pleasant today. I would like to go for a walk in the park.",
+        "The weather is very pleasant today.",
         height=100
     )
     
